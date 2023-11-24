@@ -16,6 +16,9 @@
         <label for="password">Password</label><br>
         <input type="password" name="password" id="password"> <br><br>
 
+        <div class="g-recaptcha" data-sitekey="6LcppBopAAAAANJ9RV7FBxSq97CRsWfs_V4yt6V-" data-callback="correctCaptcha">
+        </div>
+
         <button type="submit" onclick="validate()">Login</button>
     </form>
 </body>
@@ -23,5 +26,6 @@
     integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="index.js"></script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
 
 </html>
