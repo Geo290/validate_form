@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <div class="g-recaptcha" data-sitekey="6LcppBopAAAAANJ9RV7FBxSq97CRsWfs_V4yt6V-" data-callback="correctCaptcha">
+    </div>
     <title>Login</title>
 </head>
 
@@ -15,9 +16,6 @@
 
         <label for="password">Password</label><br>
         <input type="password" name="password" id="password"> <br><br>
-
-        <div class="g-recaptcha" data-sitekey="6LcppBopAAAAANJ9RV7FBxSq97CRsWfs_V4yt6V-" data-callback="correctCaptcha">
-        </div>
 
         <button type="submit" onclick="validate()">Login</button>
     </form>
